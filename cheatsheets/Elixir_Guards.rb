@@ -37,7 +37,7 @@ cheatsheet do
   end
   ```
 
-  ```elxir
+  ```elixir
   case 42 do
     x when is_binary(x) -> "Nope"
     x                   -> "Yep"
@@ -64,7 +64,7 @@ cheatsheet do
       notes "
       `+`, `-`, `*`, `/`
 
-      Unary operators `+`, and `-` are also allowed.
+      Unary `+`, `-`
       "
     end
 
@@ -73,7 +73,7 @@ cheatsheet do
       notes "
       `or`, `and`, `not`
 
-      Short-circuiting operators `&&`, `||`, and `!` are not allowed.
+      Short-circuiting operators `&&`, `||`, and `!` are _not_ allowed.
       "
     end
 
